@@ -1,18 +1,22 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Features from './components/Features';
+import Services from './components/Services';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
       <Header />
       <main>
         <Hero />
-        <Features />
+        <Services />
         <About />
+        <Testimonials />
+        <Contact />
       </main>
       <Footer />
     </div>
